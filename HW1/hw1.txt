@@ -1,0 +1,18 @@
+As it was mentioned in the paper by Stanford, 
+AI has already been implemented in the public safety and security, and it has delivered some good results because AI is not biased and has no emotions. However, 
+I think this emotionless and non-bias technology can actually become as a challenge to human security. 
+
+One example is unmanned aerial vehicle. One of the challenges that has the most attention is who will take the responsibility if drones make severe mistakes. 
+Cerka, Grigiene, and Sirbikyte, who wrote Liability for damages caused by artificial intelligence, 
+asserted that along with the stronger integration of AI into people’s lives, regulations regarding the AI technology is also getting problematic; 
+in other words, who will take the responsibility when AI causes severe consequences. 
+Cerka et al provided a project being conducted in Europe to test whether AI technology has violated any fundamental human rights. 
+As an example, according to the Ackerman who edited Men targeted but 1,147 people killed: US drone strikes–the facts on the ground, during Obama administration, 
+US drone had killed 1,147 people when 47 people were targeted in the original plan. Thus, some critics might even propose that AI drones should be fully controlled by a soldier, 
+which it completely makes sense since taking lives behind a screen and taking lives in front of the person that is going to be killed can be very different. 
+It is true that some opinions support that people should take the full control of the drones.
+
+Thus, given the example, AI can be a very powerful technology to provide security to humans and lower the mistakes caused by some unnecessary biased from the society, 
+but there is a problem for this emotionless technology when it comes to a complicated situation. 
+I think it is critical to take account the moral aspect of the technology which is a great challenge for the AI to provide much more reliable security to humans.   
+
