@@ -148,8 +148,7 @@ class BodyVsBrain {
         } else if (flag == 600) {
             double body = Double.parseDouble(args[1]);
             double[] result = closedForm();
-            
-            // fix me
+            System.out.printf("%.4f\n", result[0] + result[1] * body);
             
         } else if (flag == 700) {
             double yita = Double.parseDouble(args[1]), T = Double.parseDouble(args[2]);
