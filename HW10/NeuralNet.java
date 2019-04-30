@@ -114,8 +114,11 @@ public class NeuralNet {
             }
             hidden[1] = 0; hidden[2] = 0;
   
+            String reuslt = "";
             for (int i = 0; i < weights.length; i++) 
-                System.out.printf("%.5f ",weights[i]);
+                reuslt += String.format("%.5f ",weights[i]);
+                //System.out.printf("%.5f ",weights[i]);
+            System.out.print(reuslt.trim());
             System.out.printf("\n%.5f\n", calError("eval.csv"));
             line = br.readLine();
         }
@@ -181,12 +184,14 @@ public class NeuralNet {
             System.out.printf("%.5f %.5f\n", result[0], result[1]);
             
         } else if (flag == 400) {
+            String result = "";
             double y = Double.parseDouble(args[args.length - 1]);
             calcNet();
             ArrayList<ArrayList<Double>> list = gradient(y);
             for (int i = 0; i < list.size(); i++) {
                 for (Double val : list.get(i)) {
-                    System.out.printf("%.5f ",val);
+                    result = String.format("%.5f ",val);
+                    System.out.print(result.trim());
                 }
                 System.out.println();
             }
