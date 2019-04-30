@@ -1,3 +1,5 @@
+package HW6;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,21 +17,17 @@ import static java.util.stream.Collectors.toMap;
 public class Corpus {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		// TODO Auto-generated method stub
-		File dir = new File("/afs/cs.wisc.edu/u/a/s/aseel/Downloads/WARC201709");
+		File dir = new File("D:\\Computer science java files\\CS540\\news");
 		ArrayList<String> tokens = new ArrayList<String>();
 		File[] files = dir.listFiles();
 		ArrayList<String> types = new ArrayList<String>();
 		
 		for (File file : files) {
 			Scanner text = new Scanner(file);
-			
-	
 				while (text.hasNext()) {
 					String token = text.next();
-					token = token.trim().toLowerCase();
+					token = token.trim();
 					tokens.add(token);
-				
 			}
 		
 			text.close();
@@ -56,9 +54,6 @@ public class Corpus {
 		for (String token : unique) {
 			Collections.sort(top);
 			System.out.println(token + ": " + Collections.frequency(tokens, token));
-			
 		}
-		
 	}
-
 }
