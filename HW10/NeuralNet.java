@@ -189,10 +189,9 @@ public class NeuralNet {
             calcNet();
             ArrayList<ArrayList<Double>> list = gradient(y);
             for (int i = 0; i < list.size(); i++) {
-                for (Double val : list.get(i)) {
-                    result = String.format("%.5f ",val);
-                    System.out.print(result.trim());
-                }
+                for (Double val : list.get(i)) result += String.format("%.5f ",val);
+                System.out.print(result.trim());
+                result = "";
                 System.out.println();
             }
             
